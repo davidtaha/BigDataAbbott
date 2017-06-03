@@ -6,11 +6,11 @@ def draw_square():
 
     brad = turtle.Turtle()
     i = 1
+    brad.color("blue")
     while i < 9:
-        brad.color("blue")
         brad.forward(100)
         i = i + 1
-        brad.right(60)
+        brad.right(45)
     
     window.exitonclick()
 
